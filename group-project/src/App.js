@@ -4,6 +4,7 @@ import { ROUTES } from './constants';
 import MainView from './components/Main';
 import AppBar from './components/AppBar';
 import CompanyView from './components/Company';
+
 class App extends Component {
   render() {
     return (
