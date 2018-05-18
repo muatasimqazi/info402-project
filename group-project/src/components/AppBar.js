@@ -32,6 +32,7 @@ function ButtonAppBar(props) {
                     <Typography variant="title" color="inherit" className={classes.flex}>
                         Group Project - INFO 402
                     </Typography>
+                    <Button color="inherit" href="/">Home</Button>
                     <Button color="inherit" href="#problem">Problem</Button>
                     <Button color="inherit" href="#matters">Why It Matters</Button>
                     <Button color="inherit" href="#companies">Companies</Button>

@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, p, a {
 }
 
 .home-banner {
-  min-height: calc(100vh - 64px);
+  min-height: 100vh;
   background: url("http://gianlucavaccarini.com/images/hm-bann6.jpg") no-repeat
     center center;
   background-size: cover;
