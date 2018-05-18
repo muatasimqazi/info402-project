@@ -63,6 +63,7 @@ class MainView extends Component {
           </div> */}
         </section>
         <section className="problem-hm mid">
+          <span className="anchor" id="problem"></span>
           <Container>
             <Row>
               <Col sm={12}>
@@ -97,6 +98,7 @@ class MainView extends Component {
         </section>
 
         <section className="wii-hm">
+          <span className="anchor" id="matters"></span>
           <Container>
             <Row>
               <Col sm={12}>
@@ -229,12 +231,13 @@ class MainView extends Component {
         </section>
 
         <section className="companies-hm">
+          <span className="anchor" id="companies"></span>
           <h1 style={{ textAlign: "center" }}>Companies</h1>
           <Container style={{ marginTop: 20 }}>
             <h1 />
             <Row>
-              {companies.map(company => (
-                <Col sm={4} key={company.name}>
+              {companies.map((company, index) => (
+                <Col sm={4} key={index}>
                   <MediaCard
                     title={company.name}
                     description={company.description}
