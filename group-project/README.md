@@ -1,1 +1,0 @@
-# INFO 402 Group Project

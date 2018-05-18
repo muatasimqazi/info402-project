@@ -1,1 +1,1 @@
-# info402-project
+# INFO 402 Group Project
