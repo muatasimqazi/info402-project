@@ -10,9 +10,12 @@
     "react-dom": "^16.3.2",
     "react-grid-system": "^3.2.3",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "homepage": "https://muatasimqzi.github.io/info402-project/group-project"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -a -e info402-project",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
