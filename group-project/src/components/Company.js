@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
+import '../assets/company.css'
 
 class CompanyView extends Component {
     render() {
-        return (
+    console.log(this.props);
+    return (
             <div>
-                <h1>{(this.props.match.params.companyName).toUpperCase()}</h1>
+                <section className='cmp-bn' style={{backgroundImage: this.props.match.params}}>
+                    <h1>{this.props.match.params.companyName}</h1>
+                </section>
+            <div>
+                
+            </div>
             </div>
         );
     }

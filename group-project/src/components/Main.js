@@ -45,16 +45,14 @@ class MainView extends Component {
             <Row>
               <Col sm={7}>
                 <Grow in={this.state["1"]}>
-                  <h1>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer nec odio.
-                  </h1>
+                  <h1>The Gender Divide in Tech Related Fields</h1>
                 </Grow>
                 <Grow in={this.state["2"]}>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer nec odio. Praesent libero. Sed cursus ante dapibus
-                    diam. Sed nisi.
+                    Women represent less than 25% of employees in the tech field
+                    due to several factors ranging from implicit biases, lack of
+                    mentors, and family responsibilities. These issues have led
+                    to what we call the gender divide.
                   </p>
                 </Grow>
               </Col>
@@ -72,21 +70,24 @@ class MainView extends Component {
                 <Row>
                   <Col sm={8} offset={{ sm: 2 }}>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Integer nec odio. Praesent libero. Sed cursus ante dapibus
-                      diam. Sed nisi. Nulla quis sem at nibh elementum
-                      imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec
-                      tellus sed augue semper porta. Mauris massa. Vestibulum
-                      lacinia arcu eget nulla. Class aptent taciti sociosqu ad
-                      litora torquent per conubia nostra, per inceptos
-                      himenaeos.
+                      Since the late 1900's there has been an ongoing issue with
+                      diversity in the workplace, one specific issue being the
+                      dominance of males in the tech industry. Roughly right
+                      now, the tech field is made up of 75% men, and in more
+                      senior positions there are even more men filling those
+                      roles. To understand this context a little bit better We
+                      have to look at why there is such a gender divide in the
+                      work place.
                       <br />
                       <br />
-                      Curabitur sodales ligula in libero. Sed dignissim lacinia
-                      nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In
-                      scelerisque sem at dolor. Maecenas mattis. Sed convallis
-                      tristique sem. Proin ut ligula vel nunc egestas porttitor.
-                      Morbi lectus risus, iaculis vel, suscipit quis, luctu.
+                      Often times people mention the reason for the gender
+                      divide is the culture of the company, the culture of the
+                      field, and naturally how unappealing it is to join a field
+                      dominated by males. However, this isn't necessarily true.
+                      There are several reasons for this issue, stemming from
+                      schools not providing adequate resources for women to go
+                      into tech, gender biases in reviews, promotions, and
+                      interviews, lack of mentors, etc.
                     </p>
                   </Col>
                 </Row>
@@ -104,33 +105,33 @@ class MainView extends Component {
                   <Col sm={4}>
                     <div className="wii-item">
                       <i className="fal fa-balance-scale" />
-                      <h2>Lorem ipsum dolor sit amet</h2>
+                      <h2>Biases</h2>
                       <p>
-                        Curabitur sodales ligula in libero. Sed dignissim
-                        lacinia nunc. Curabitur tortor. Pellentesque nibh.
-                        Aenean quam. In scelerisque sem at dolor.
+                        Biases have developed towards women in the tech field,
+                        resulting in biased reviews, interviews, and promotions.
+                        Causing a lack of interest in the field.
                       </p>
                     </div>
                   </Col>
                   <Col sm={4}>
                     <div className="wii-item">
-                      <i className="fal fa-balance-scale" />
-                      <h2>Lorem ipsum dolor sit amet</h2>
+                      <i className="fal fa-money-bill-alt" />
+                      <h2>Unfair Pay</h2>
                       <p>
-                        Curabitur sodales ligula in libero. Sed dignissim
-                        lacinia nunc. Curabitur tortor. Pellentesque nibh.
-                        Aenean quam. In scelerisque sem at dolor.
+                        There is a known wage gap to occur between males and
+                        females in tech. Such a gap is unfair to pay differently
+                        based on gender.
                       </p>
                     </div>
                   </Col>
                   <Col sm={4}>
                     <div className="wii-item">
-                      <i className="fal fa-balance-scale" />
-                      <h2>Lorem ipsum dolor sit amet</h2>
+                      <i className="fal fa-burn" />
+                      <h2>High Turnover</h2>
                       <p>
-                        Curabitur sodales ligula in libero. Sed dignissim
-                        lacinia nunc. Curabitur tortor. Pellentesque nibh.
-                        Aenean quam. In scelerisque sem at dolor.
+                        Companies that show little to know flexibility in their
+                        policies for different genders and scenarios often have
+                        a high turnover rate.
                       </p>
                     </div>
                   </Col>
@@ -140,36 +141,25 @@ class MainView extends Component {
                 <br />
                 <br />
                 <Row>
-                  <Col sm={4}>
+                  <Col sm={4} offset={{ sm: 2 }}>
                     <div className="wii-item">
-                      <i className="fal fa-balance-scale" />
-                      <h2>Lorem ipsum dolor sit amet</h2>
+                      <i className="fal fa-chart-line" />
+                      <h2>Promotion Rates</h2>
                       <p>
-                        Curabitur sodales ligula in libero. Sed dignissim
-                        lacinia nunc. Curabitur tortor. Pellentesque nibh.
-                        Aenean quam. In scelerisque sem at dolor.
+                        Currently men are promoted at 30% higher rates than
+                        women, showing the growing issue of gender inequality
+                        when it comes to job reviews.
                       </p>
                     </div>
                   </Col>
                   <Col sm={4}>
                     <div className="wii-item">
-                      <i className="fal fa-balance-scale" />
-                      <h2>Lorem ipsum dolor sit amet</h2>
+                      <i className="fal fa-times-octagon" />
+                      <h2>Hostile Environments</h2>
                       <p>
-                        Curabitur sodales ligula in libero. Sed dignissim
-                        lacinia nunc. Curabitur tortor. Pellentesque nibh.
-                        Aenean quam. In scelerisque sem at dolor.
-                      </p>
-                    </div>
-                  </Col>
-                  <Col sm={4}>
-                    <div className="wii-item">
-                      <i className="fal fa-balance-scale" />
-                      <h2>Lorem ipsum dolor sit amet</h2>
-                      <p>
-                        Curabitur sodales ligula in libero. Sed dignissim
-                        lacinia nunc. Curabitur tortor. Pellentesque nibh.
-                        Aenean quam. In scelerisque sem at dolor.
+                        According to a study, 50% of women in STEM will leave
+                        because of the work environment.
+                        <br /> <br />
                       </p>
                     </div>
                   </Col>
@@ -205,27 +195,30 @@ class MainView extends Component {
                   </ol>
                   <div className="carousel-inner">
                     <div className="carousel-item active">
-                      <h2>Lorem ipsum dolor sit amet</h2>
+                      <h2>Companies Adjusting</h2>
                       <p>
-                        Curabitur sodales ligula in libero. Sed dignissim
-                        lacinia nunc. Curabitur tortor. Pellentesque nibh.
-                        Aenean quam. In scelerisque sem at dolor.
+                        This issue has grown the attention of all major
+                        companies resulting in new policies such as more
+                        maternity leave and better benefits for women.
+                        <br /><br />
                       </p>
                     </div>
                     <div className="carousel-item">
-                      <h2>Lorem ipsum dolor sit amet</h2>
+                      <h2>Support Groups &amp; Networks</h2>
                       <p>
-                        Curabitur sodales ligula in libero. Sed dignissim
-                        lacinia nunc. Curabitur tortor. Pellentesque nibh.
-                        Aenean quam. In scelerisque sem at dolor.
+                        The issue of such little women in engineering has
+                        created several women in engineering company groups and
+                        networks, created a peer to peer mentoring and
+                        networking system for a more inclusive environment.
                       </p>
                     </div>
                     <div className="carousel-item">
-                      <h2>Lorem ipsum dolor sit amet</h2>
+                      <h2>The Growing Issue</h2>
                       <p>
-                        Curabitur sodales ligula in libero. Sed dignissim
-                        lacinia nunc. Curabitur tortor. Pellentesque nibh.
-                        Aenean quam. In scelerisque sem at dolor.
+                        The growing issue puts pressure on companies to increase
+                        their diversity efforts, thus creating more emphasis on
+                        their activity in colleges, minority groups, etc.
+                        <br /><br />
                       </p>
                     </div>
                   </div>
@@ -236,7 +229,7 @@ class MainView extends Component {
         </section>
 
         <section className="companies-hm">
-          <h1 style={{textAlign:"center"}}>Companies</h1>
+          <h1 style={{ textAlign: "center" }}>Companies</h1>
           <Container style={{ marginTop: 20 }}>
             <h1 />
             <Row>
