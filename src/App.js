@@ -16,8 +16,8 @@ class App extends Component {
         <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route exact path={ROUTES.main} component={MainView} />
-            <Route path='/info402-project/company/facebook' component={Facebook} />
-            <Route path='/info402-project/company/amazon' component={Amazon} />
+            <Route path='/company/facebook' component={Facebook} />
+            <Route path='/company/amazon' component={Amazon} />
             <Route path={ROUTES.company} component={CompanyView} />
             <Route path={ROUTES.team} component={TeamView} />
             <Redirect to={ROUTES.main} />
