@@ -34,7 +34,6 @@ function ButtonAppBar(props) {
                         Group Project - INFO 402
                     </Typography>
                     <Button color="inherit" href='/info402-project'>Home</Button>
-                    <Button color="inherit" href='#companies'>Companies</Button>
                     <Button color="inherit" href='info402-project/resources'>Resources</Button>
                     <Button color="inherit" href='info402-project/team'>Team</Button>
                 </Toolbar>

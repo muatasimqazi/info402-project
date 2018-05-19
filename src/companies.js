@@ -103,7 +103,7 @@ export const companies = [
 
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditate veritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi.",
         link: "/companies/microsoft",
-        context = [
+        context: [
           {
             title: "Company Size",
             text: "124,000 employees"
@@ -125,10 +125,10 @@ export const companies = [
             text: "0.1%"
           },
           {
-            title: "Tech Female Employee increase"
-            text: "8.4%"
+            title: "Tech Female Employee increase",
+            text: "8.4%",
           }
-        ];
+        ],
         backgroundImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Microsoft_sign_closeup.jpg/1920px-Microsoft_sign_closeup.jpg',
         trends: ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde"],
         policies: [
@@ -144,7 +144,7 @@ export const companies = [
 
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditate veritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi.",
       link: "/companies/deloitte",
-      context = [
+      context: [
         {
           title: "Company Size",
           text: "263,900 employees"
@@ -165,7 +165,7 @@ export const companies = [
           title: "Overall Female Employee Increase",
           text: "1.0%"
         },
-      ];
+      ],
       backgroundImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/DeloitteToronto3.jpg/2560px-DeloitteToronto3.jpg',
       trends: ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde"],
       policies: [
