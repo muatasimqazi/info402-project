@@ -99,7 +99,7 @@ export const companies = [
     },
     {
         name: "Microsoft",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/512px-Microsoft_logo_%282012%29.svg.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Microsoft_Sign_on_German_campus.jpg",
 
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditate veritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi.",
         link: "/companies/microsoft",
@@ -140,7 +140,7 @@ export const companies = [
     },
     {
       name: "Deloitte",
-      image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Deloitte_logo.jpg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/DeloitteToronto4.jpg/2560px-DeloitteToronto4.jpg",
 
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditate veritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi.",
       link: "/companies/deloitte",
