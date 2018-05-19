@@ -101,7 +101,7 @@ export const companies = [
         name: "Microsoft",
         image: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Microsoft_Sign_on_German_campus.jpg",
 
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditate veritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi.",
+        description: "Being one of the largest tech companies in the world, Microsoft has over 125,000 employees. Of those employees, women make up roughly 25.9% of that number and constitute about 19.0% in tech related fields. As far as leadership goes for Microsoft, women only make up about 19.1% leaders at Microsoft and depicts the existence of gender bias when it comes to leadership roles, promotions, and job reviews.",
         link: "/companies/microsoft",
         context: [
           {
@@ -130,11 +130,11 @@ export const companies = [
           }
         ],
         backgroundImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Microsoft_sign_closeup.jpg/1920px-Microsoft_sign_closeup.jpg',
-        trends: ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde"],
+        trends: ["At Microsoft, despite a positive trend, there is still quite a need to Microsoft to bridge the bias across gender and other minorities. Consequently, the company has created a few employee resource groups as networks for women in technology to develop and support female employees at Microsoft through opportunities such as global conferences, networking events, and mentoring called Women at microsoft. Women at Microsoft also partners with MentorNet, a company that seeks to connect STEM student to mentors in their community. In tandem with renewed hiring policies, Microsoft as a whole, is extensively trying to make inroads to strive against gender biases to make their company a more inclusive."],
         policies: [
-            { "icon": "fal fa-snowflake", "name": "Policy 1", "text": "Does this policy" },
-            { "icon": "fal fa-child", "name": "Policy 2", "text": "Does this policy" },
-            { "icon": "fal fa-money-bill-alt", "name": "Policy 3", "text": "Does this policy" }
+            { "icon": "fal fa-digital-ocean", "name": "DigiGirlz Day", "text": "Designed to introduce girls to the career opportunities available in technology fields" },
+            { "icon": "fal fa-hands", "name": "SitWithMe.org", "text": "to recognize the important role women play in creating future technology" },
+            { "icon": "fal fa-money-bill-alt", "name": "WiRL Leadership Summit Sponsorship", "text": "sponsor 10 women to attendt this summit" }
         ],
         conclusion: "Lorem ipsum dolor sit amet consectetur adipisicing",
     },
