@@ -35,6 +35,8 @@ function ButtonAppBar(props) {
                     </Typography>
                     <Button color="inherit" href='/'>Home</Button>
                     <Button color="inherit" href='#companies'>Companies</Button>
+                    <Button color="inherit" href='/resources'>Resources</Button>
+                    <Button color="inherit" href='/team'>Team</Button>
                 </Toolbar>
             </AppBar>
         </div>
