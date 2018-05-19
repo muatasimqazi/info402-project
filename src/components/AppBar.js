@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Button } from '@material-ui/core';
+import { Link } from 'react-router-dom'
 
 
 const styles = {
@@ -32,9 +33,8 @@ function ButtonAppBar(props) {
                     <Typography variant="title" color="inherit" className={classes.flex}>
                         Group Project - INFO 402
                     </Typography>
-                    <Button color="inherit" href="#problem">Problem</Button>
-                    <Button color="inherit" href="#matters">Why It Matters</Button>
-                    <Button color="inherit" href="#companies">Companies</Button>
+                    <Button color="inherit" href='/'>Home</Button>
+                    <Button color="inherit" href='#companies'>Companies</Button>
                 </Toolbar>
             </AppBar>
         </div>
