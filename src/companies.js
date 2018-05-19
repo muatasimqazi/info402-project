@@ -2,7 +2,7 @@ export const companies = [
     {
         name: "Apple",
         image: "https://images.unsplash.com/photo-1524046997286-863495b9638e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4928ee2f24958e5af4e2f29461953663&auto=format&fit=crop&w=2090&q=80",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi.",
+        description: "Cupertino-based based tech giant claims female representation is steadily increasing with a 5 point percent increase in number of women under 30 working at the company since 2014.",
         link: "/companies/apple",
         context: [
             {
@@ -45,8 +45,7 @@ export const companies = [
         name: "Uber",
         image: "https://media.glassdoor.com/l/0e/3b/dd/5c/office-circa-2015.jpg",
 
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditate veritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi.",
-        link: "/companies/uber",
+        description: "The San Francisco based ride-sharing company has been marred in controversy over its treatment of women employees, particularly some serious allegations of sexual harassment and gender discrimination. The company’s new CEO says they are “just getting started when it comes to improving diversity and inclusion.",
         context: [
             {
                 title: "Company Size",

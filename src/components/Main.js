@@ -242,7 +242,7 @@ class MainView extends Component {
                     title={company.name}
                     description={company.description}
                     image={company.image}
-                    link={`info402-project${company.link}`}
+                    link={company.link}
                   />
                 </Col>
               ))}
