@@ -186,7 +186,7 @@ class Amazon extends Component {
               senior roles. Overall for senior level management, women make up
               25% and for their executive directors, women make up an even
               smaller percentage. I think Amazon does a fair job diversifying
-              their talet, however they need to focus on giving an equal
+              their talent, however they need to focus on giving an equal
               opportunity to both genders when it comes to higher level jobs.
             </p>
           </Container>

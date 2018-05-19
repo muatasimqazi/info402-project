@@ -98,11 +98,81 @@ export const companies = [
         link: "/company/amazon",
     },
     {
-        name: "Next Company Three",
-        image: "http://via.placeholder.com/350x150",
+        name: "Microsoft",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/512px-Microsoft_logo_%282012%29.svg.png",
+
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditate veritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi.",
+        link: "/companies/microsoft",
+        context = [
+          {
+            title: "Company Size",
+            text: "124,000 employees"
+          },
+          {
+            title: "Most Recent Revenue",
+            text: "89.95 billion USD"
+          },
+          {
+            title: "Female Employees",
+            text: "17.5%"
+          },
+          {
+            title: "Male Employees",
+            text: "82%"
+          },
+          {
+            title: "Overall Female Employee Increase",
+            text: "0.1%"
+          },
+          {
+            title: "Tech Female Employee increase"
+            text: "8.4%"
+          }
+        ];
+        backgroundImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Microsoft_sign_closeup.jpg/1920px-Microsoft_sign_closeup.jpg',
+        trends: ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde"],
+        policies: [
+            { "icon": "fal fa-snowflake", "name": "Policy 1", "text": "Does this policy" },
+            { "icon": "fal fa-child", "name": "Policy 2", "text": "Does this policy" },
+            { "icon": "fal fa-money-bill-alt", "name": "Policy 3", "text": "Does this policy" }
+        ],
+        conclusion: "Lorem ipsum dolor sit amet consectetur adipisicing",
     },
     {
-        name: "Next Company Four",
-        image: "http://via.placeholder.com/350x150",
+      name: "Deloitte",
+      image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Deloitte_logo.jpg",
+
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditate veritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi.",
+      link: "/companies/deloitte",
+      context = [
+        {
+          title: "Company Size",
+          text: "263,900 employees"
+        },
+        {
+          title: "Most Recent Revenue",
+          text: "38.8 billion USD"
+        },
+        {
+          title: "Female Employees",
+          text: "44%"
+        },
+        {
+          title: "Male Employees",
+          text: "56%"
+        },
+        {
+          title: "Overall Female Employee Increase",
+          text: "1.0%"
+        },
+      ];
+      backgroundImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/DeloitteToronto3.jpg/2560px-DeloitteToronto3.jpg',
+      trends: ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde"],
+      policies: [
+          { "icon": "fal fa-snowflake", "name": "Policy 1", "text": "Does this policy" },
+          { "icon": "fal fa-child", "name": "Policy 2", "text": "Does this policy" },
+          { "icon": "fal fa-money-bill-alt", "name": "Policy 3", "text": "Does this policy" }
+      ],
+      conclusion: "Lorem ipsum dolor sit amet consectetur adipisicing",
     },
 ]
