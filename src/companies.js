@@ -45,8 +45,7 @@ export const companies = [
         name: "Uber",
         image: "https://media.glassdoor.com/l/0e/3b/dd/5c/office-circa-2015.jpg",
 
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditate veritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi.",
-        link: "/companies/uber",
+        description: "The San Francisco based ride-sharing company has been marred in controversy over its treatment of women employees, particularly some serious allegations of sexual harassment and gender discrimination. The company’s new CEO says they are “just getting started when it comes to improving diversity and inclusion.",
         context: [
             {
                 title: "Company Size",
