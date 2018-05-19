@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div>
         <AppBar />
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route exact path={ROUTES.main} component={MainView} />
             <Route exact path='/company/facebook' component={Facebook} />
