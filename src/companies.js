@@ -83,9 +83,9 @@ export const companies = [
 
         "They have also partnered with several organizations that aim to bring in more women talent to the tech industry, such as Girls Who Code, BUILD, Technovation, Code.org, and SMASH."],
         policies: [
-            { "icon": "fal fa-snowflake", "name": "Egg Freezing", "text": "Does this policy" },
-            { "icon": "fal fa-child", "name": "Policy 2", "text": "Does this policy" },
-            { "icon": "fal fa-money-bill-alt", "name": "Policy 3", "text": "Does this policy" }
+            { "icon": "fal fa-snowflake", "name": "Egg Freezing", "text": "Similar to several other major tech companies, Uber also offers its female employees benefits that pay for egg-freezing so that these employees can decide to have kids later in life." },
+            { "icon": "fal fa-child", "name": "Maternity Leave", "text": "Uber offers 17 weeks of paid maternity leave and 2 weeks of unpaid maternity leave." },
+            { "icon": "fal fa-money-bill-alt", "name": "Child care Discount", "text": "The company has an childcare discount policy for its employees and offers rates for eligible child care centers." }
         ],
         infograph: uber,
         conclusion: "Overall, Uber has made efforts to improve its image how it treats its women employees following allegations of sexual harassment and what efforts it is making to bridge the gender gap. The company says they are launching new leadership programs for women beside other underrepresented groups. Two of its Employee Resource Groups are specifically intended for women. These include LadyEng, a community for women in engineering, and Women for Uber, a community for women, gender non-binary employees, and allies.",
