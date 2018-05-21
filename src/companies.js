@@ -49,27 +49,27 @@ export const companies = [
         context: [
             {
                 title: "Company Size",
-                text: "35,000 employees"
+                text: "16,000 employees",
             },
             {
                 title: "Monthly Users",
-                text: "2.2  users"
+                text: "75 Million Riders and 3 million drivers"
             },
             {
                 title: "Most Recent Revenue",
-                text: "15.9 billion USD"
+                text: "7.5 billion USD",
             },
             {
                 title: "Female Employees",
-                text: "35%"
+                text: "38%"
             },
             {
                 title: "Male Employees",
-                text: "65%"
+                text: "62%"
             },
             {
                 title: "Female Employee Increase",
-                text: "2%"
+                text: "1.9%"
             }
         ],
         backgroundImage: 'https://upload.wikimedia.org/wikipedia/commons/c/cc/Protest_against_Uber_-_Budapest%2C_2016.01.18_%282%29.JPG',
@@ -79,6 +79,7 @@ export const companies = [
             { "icon": "fal fa-child", "name": "Policy 2", "text": "Does this policy" },
             { "icon": "fal fa-money-bill-alt", "name": "Policy 3", "text": "Does this policy" }
         ],
+        infograph: 'https://photos-5.dropbox.com/t/2/AABsKUdAlwVb--ovASOF33IH2ww8CncwiTO5dZ0ce4yCPg/12/101592676/jpeg/32x32/1/_/1/2/uber-infograph.jpg/EJDosuELGAUgAigC/NuGVIDwSG_gKDEfFscEYqM0LUQrYhBsk6lbZpsufvxA?size=800x600&size_mode=3',
         conclusion: "Lorem ipsum dolor sit amet consectetur adipisicing",
 
     },
@@ -135,9 +136,10 @@ export const companies = [
             { "icon": "fal fa-hands", "name": "SitWithMe.org", "text": "To recognize the important role women play in creating future technology" },
             { "icon": "fal fa-money-bill-alt", "name": "WiRL Leadership Summit Sponsorship", "text": "Sponsor 10 women to attend this summit" }
         ],
-        infograph: "https://photos-5.dropbox.com/t/2/AAAZFKw7JTcIpuwt1BCP7FvpFtUG0B4auyhwpze8F3cAhg/12/591871981/png/32x32/1/_/1/2/ScreenshotMicrosof.png/EKWXreIEGLECIAIoAg/7bqc3ERLbDPT6yGJ0aVRW-KTRkCeyYq1CXrPyRo4Z4s?preserve_transparency=1&size=2048x1536&size_mode=3",
-        infograph: "https://photos-3.dropbox.com/t/2/AAD42HkofANus6Wyh7P951kQxdjlPC5IA9Peb6wjXECIYA/12/591871981/png/32x32/1/_/1/2/ScreenshotMicro.png/EKWXreIEGLECIAIoAg/Yiug4fsCpwjrTS0RNXs25OtJrmr1unBhicLBTX1oYG4?preserve_transparency=1&size=2048x1536&size_mode=3",
-        infograph: "https://photos-4.dropbox.com/t/2/AACQcwB_8G2Ix_2EOp_TaHDlDTk3g3ogmm6ssySYkq53XA/12/591871981/png/32x32/1/_/1/2/ScreenshotMic.png/EKWXreIEGLECIAIoAg/adPQQN8TvM-dUq1uzfFXzzQwOkXcUBho0Q5qEdC07PU?preserve_transparency=1&size=2048x1536&size_mode=3",
+        infographs: ["https://photos-6.dropbox.com/t/2/AAAAKdm-U_0yP6h3rnx1iTfiRN9ha7l58hUMmyUlZk_WPA/12/101592676/png/32x32/1/_/1/2/ScreenshotMicrosof.png/EJDosuELGAQgAigC/7bqc3ERLbDPT6yGJ0aVRW-KTRkCeyYq1CXrPyRo4Z4s?preserve_transparency=1&size=800x600&size_mode=3",
+        "https://photos-5.dropbox.com/t/2/AAC1b9xFMspCgCA9LRvg8Uf_CzAuCr7iGXwgakhNjYIuOg/12/101592676/png/32x32/1/_/1/2/ScreenshotMicro.png/EJDosuELGAQgAigC/Yiug4fsCpwjrTS0RNXs25OtJrmr1unBhicLBTX1oYG4?preserve_transparency=1&size=800x600&size_mode=3",
+
+        "https://photos-3.dropbox.com/t/2/AACfztfyxaXaaevZTHXjqkXUjKr4YAZaV8IPBQ4clGO9qQ/12/101592676/png/32x32/1/_/1/2/ScreenshotMic.png/EJDosuELGAQgAigC/adPQQN8TvM-dUq1uzfFXzzQwOkXcUBho0Q5qEdC07PU?preserve_transparency=1&size=800x600&size_mode=3"],
         conclusion: "",
     },
     {
@@ -174,7 +176,7 @@ export const companies = [
             { "icon": "fal fa-plus-circle", "name": "Inclusion Councils", "text": "Aims to bring more voices into the conversation, cultivate and harness allies and drive change, that bring white men into the conversation" },
             { "icon": "fal fa-female", "name": "Women in Leadership", "text": "Boasts a vision of increasing women in leadership to at least 30%" }
         ],
-        infograph: "https://photos-5.dropbox.com/t/2/AACRMmVN-nR6Oak4YRcRX6XrM9b_TCXg1mDhxSLBKwo_hw/12/591871981/png/32x32/1/_/1/2/ScreenshotDel.png/EKWXreIEGLECIAIoAg/NsDROmoDDmsHQRdNEMuztbDMhqpZIuRO0Q4Bsh22-cw?preserve_transparency=1&size=2048x1536&size_mode=3",
+        infograph: "https://photos-3.dropbox.com/t/2/AABnbLm3w2ZE3OozX2JOnqbgG-m8vClLfSc33eOH1Jb1jA/12/101592676/png/32x32/3/1526893200/0/2/ScreenshotDel.png/EJDosuELGAQgAigC/NsDROmoDDmsHQRdNEMuztbDMhqpZIuRO0Q4Bsh22-cw?dl=0&preserve_transparency=1&size=800x600&size_mode=3",
         conclusion: "In the end, as Deloitte rightly points out, these networks and ERGs divide people up into artificial subgroups and isolate them from the networks of power and influence that are such a key part of how leaders identify and promote people. Hence, Deloitte has adopted the task to educate and convince today’s dominant managerial group that inclusion is good for business. Hence, Deloitte makes for one the most conducive work environments without the burden of bias and are leading the response for the outcall to address the gender bias while maintaining their standard of results.",
     },
 ]

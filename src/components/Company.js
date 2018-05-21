@@ -76,9 +76,9 @@ class CompanyView extends Component {
                             <Container>
                                 <h1>Diversity Trends at {companyName}</h1>
                                 {
-                                    company.trends.map((text) => {
+                                    company.trends.map((text, index) => {
                                         return (
-                                            <p>{text}</p>
+                                            <p key={index}>{text}</p>
                                         );
                                     })
                                 }
@@ -93,15 +93,15 @@ class CompanyView extends Component {
                             <Container>
                                 <Grid container spacing={16}>
                                     {
-                                        company.policies.map(policy => {
+                                        company.policies.map((policy, index) => {
                                             return (
-                                                <Grid xs={12} sm={6} md={4} debug item>
+                                                <Grid xs={12} sm={6} md={4} item key={index}>
                                                     <Paper elevation={2} className="cd-pd">
                                                         <i className={policy.icon} />
                                                         <br />
                                                         <h3>{policy.name}</h3>
                                                         <p>
-                                                            {policy.name}
+                                                            {policy.text}
                                                             <br />
                                                             <br />
                                                         </p>
@@ -117,7 +117,20 @@ class CompanyView extends Component {
                         <section className="cmp-graph">
                             <h2>Diversity Trends</h2>
                             <Container>
-                                <img src={company.infograph} alt="" />
+                                {
+                                    company.infographs 
+                                    ?
+                                    <div>
+                                    <img src={company.infographs[0]} alt="" />
+                                    <hr/>
+                                    <img src={company.infographs[1]} alt="" />
+                                    <hr/>
+                                    <img src={company.infographs[2]} alt="" />
+                                    </div>
+                                    :
+                                    <img src={company.infograph} alt="" />
+                                }
+                               
                             </Container>
                         </section>
 
