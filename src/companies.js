@@ -13,31 +13,31 @@ export const companies = [
         context: [
             {
                 title: "Company Size",
-                text: "35,000 employees"
+                text: "123,000 employees"
             },
             {
-                title: "Monthly Users",
-                text: "2.2 billion users"
+                title: "Active Devices",
+                text: "1.3 billion active devices worldwide"
             },
             {
                 title: "Most Recent Revenue",
-                text: "15.9 billion USD"
+                text: "229.2 billion USD"
             },
             {
                 title: "Female Employees",
-                text: "35%"
+                text: "38%"
             },
             {
                 title: "Male Employees",
-                text: "65%"
+                text: "68%"
             },
             {
                 title: "Female Employee Increase",
-                text: "2%"
+                text: "5% as of 2014"
             }
         ],
         backgroundImage: 'https://upload.wikimedia.org/wikipedia/commons/8/84/Apple_Campus_One_Infinite_Loop_Sign.jpg',
-        trends: ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde"],
+        trends: ["The company has a good percent of women in leadership roles. The company says 29% of leaders at Apple are women, a 1 percentage point increase from July 2016 to July 2017. It also says 39% of the company’s leaders under 30 are women with a 3 percentage points increase. From July 2016 to July 2017, half of the company’s new hires in the U.S. included women in addition to people from historically underrepresented groups in tech — women, Black, Hispanic, Native American, and Native Hawaiian & Other Pacific Islander."],
         policies: [
             { "icon": "fal fa-snowflake", "name": "Policy 1", "text": "Does this policy" },
             { "icon": "fal fa-child", "name": "Policy 2", "text": "Does this policy" },
