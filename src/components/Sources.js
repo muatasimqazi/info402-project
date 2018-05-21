@@ -24,6 +24,7 @@ class SourceView extends Component {
                         <Row className="mt-5 mb-4 text-center">
                             <Col sm={12}>
                                 <Card>
+<<<<<<< HEAD
 <h4>US Benefits at Microsoft</h4>
 <p>
 (2017). U.S. benefits at Microsoft. Microsoft. Retrieved from https://careers.microsoft.com/us/en/usbenefits
@@ -148,6 +149,10 @@ Stabile, S. J. (2008). Google benefits or Google’s benefit? Journal of Busines
 <p>
 Williams, M. (2017, Aug 2). Facebook diversity update: building a more diverse, inclusive workforce. Facebook Newsroom. Retrieved from https://newsroom.fb.com/news/2017/08/facebook-diversity-update-building-a-more-diverse-inclusive-workforce/
 </p>
+=======
+                                // add ph1 tag
+                                
+>>>>>>> 8da1c72f2408f56fbcaf934319c11a1b630765ce
                                 </Card>
                             </Col>
                         </Row>

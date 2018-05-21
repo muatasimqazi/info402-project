@@ -225,14 +225,14 @@ class MainView extends Component {
           </Container>
         </section>
 
-        <section className="companies-hm">
+        <section className="companies-">
           <span className="anchor" id="companies"></span>
           <h1 style={{ textAlign: "center" }}>Companies</h1>
           <Container style={{ marginTop: 20 }}>
             <h1 />
             <Row>
               {companies.map((company, index) => (
-                <Col sm={4} key={index}>
+                <Col xs={12} sm={6} md={4} key={index}>
                   <MediaCard
                     title={company.name}
                     description={company.description}

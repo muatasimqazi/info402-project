@@ -1,51 +1,57 @@
+const apple = require('./assets/images/apple-infograph.png');
+const uber = require('./assets/images/uber-infograph.jpg');
+const ms01 = require('./assets/images/microsoft01.png');
+const ms02 = require('./assets/images/microsoft02.png');
+const ms03 = require('./assets/images/microsoft03.png');
+const deloitte = require('./assets/images/deloitte.png');
 export const companies = [
     {
         name: "Apple",
         image: "https://images.unsplash.com/photo-1524046997286-863495b9638e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4928ee2f24958e5af4e2f29461953663&auto=format&fit=crop&w=2090&q=80",
-        description: "Cupertino-based tech giant claims female representation is steadily increasing with a 5 point percent increase in number of women under 30 working at the company since 2014.",
+        description: "The Cupertino-based tech giant claims female representation is steadily increasing with a 5 point percent increase in number of women under 30 working at the company since 2014.",
         link: "/companies/apple",
         context: [
             {
                 title: "Company Size",
-                text: "35,000 employees"
+                text: "123,000 employees"
             },
             {
-                title: "Monthly Users",
-                text: "2.2 billion users"
+                title: "Active Devices",
+                text: "1.3 billion active devices worldwide"
             },
             {
                 title: "Most Recent Revenue",
-                text: "15.9 billion USD"
+                text: "229.2 billion USD"
             },
             {
                 title: "Female Employees",
-                text: "35%"
+                text: "38%"
             },
             {
                 title: "Male Employees",
-                text: "65%"
+                text: "68%"
             },
             {
                 title: "Female Employee Increase",
-                text: "2%"
+                text: "5% as of 2014"
             }
         ],
         backgroundImage: 'https://upload.wikimedia.org/wikipedia/commons/8/84/Apple_Campus_One_Infinite_Loop_Sign.jpg',
-        trends: ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde"],
+        trends: ["The company has a decent percentage of women in leadership roles. The company says 29% of leaders at Apple are women, a 1 percentage point increase from July 2016 to July 2017. It also says 39% of the company’s leaders under 30 are women with a 3 percentage points increase. From July 2016 to July 2017, half of the company’s new hires in the U.S. included women in addition to people from historically underrepresented groups in tech — women, Black, Hispanic, Native American, and Native Hawaiian & Other Pacific Islander."],
         policies: [
-            { "icon": "fal fa-snowflake", "name": "Policy 1", "text": "Does this policy" },
-            { "icon": "fal fa-child", "name": "Policy 2", "text": "Does this policy" },
-            { "icon": "fal fa-money-bill-alt", "name": "Policy 3", "text": "Does this policy" }
+            { "icon": "fal fa-snowflake", "name": "Egg Freezing", "text": "Like Facebook and Google, Apple also provides egg freezing option to its women employees who may not want kids in their 20s, but don't want all the risks that come with delaying childbirth into their 30s and sometimes 40s." },
+            { "icon": "fal fa-child", "name": "Extended Maternity Leave", "text": "The company offers 18 weeks of paid maternity leave, 9 weeks of unpaid maternity leave, 6 weeks of paid paternity leave and 6 weeks of unpaid paternity leave." },
+            { "icon": "fal fa-money-bill-alt", "name": "Dependent Day Care Spending Account", "text": "The company provides tax savings to employees who need dependent day care services. Employees can set aside up to $5000 in before-tax dollars each year for eligible dependent day care expenses." }
         ],
-        infograph: "https://cdn.slidemodel.com/wp-content/uploads/7289-01-gradient-column-chart-infographics-16x9-1.jpg",
-        conclusion: "Lorem ipsum dolor sit amet consectetur adipisicing",
+        infograph: apple,
+        conclusion: "Apple has achieved pay equity in every country they operate in. The company joined the NCWIT community in 2007 as a member of the Workforce Alliance and became NCWIT’s first-ever Lifetime Partner in 2015. Overall, the company seems to be making efforts to hire more women and also emphasizes on placing more women in leadership roles. The company boasts its number of young women taking up leadership roles within the company.",
     },
 
     {
         name: "Uber",
         image: "https://media.glassdoor.com/l/0e/3b/dd/5c/office-circa-2015.jpg",
         link: "/companies/uber",
-        description: "The San Francisco based ride-sharing company has been marred in controversy over its treatment of women employees, particularly some serious allegations of sexual harassment and gender discrimination. The company’s new CEO says they are “just getting started when it comes to improving diversity and inclusion.“",
+        description: "The San Francisco-based ride-sharing company has been marred in controversy over its treatment of women employees, particularly some serious allegations of sexual harassment and gender discrimination. The company’s new CEO says they are “just getting started when it comes to improving diversity and inclusion.“",
         context: [
             {
                 title: "Company Size",
@@ -73,14 +79,16 @@ export const companies = [
             }
         ],
         backgroundImage: 'https://upload.wikimedia.org/wikipedia/commons/c/cc/Protest_against_Uber_-_Budapest%2C_2016.01.18_%282%29.JPG',
-        trends: ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde"],
+        trends: ["Following the expulsion of its previous CEO, the company says they are making significant efforts to make include more women in leadership roles, which they define as any role as director or above. The current CEO, Dara Khosrowshahi, says they celebrate differences at Uber and are committed to building a culture where everyone feels welcomed, supported and challenged. The company has appointed a new Chief Diversity and Inclusion Officer to help create engaging development programs for women.",
+
+        "They have also partnered with several organizations that aim to bring in more women talent to the tech industry, such as Girls Who Code, BUILD, Technovation, Code.org, and SMASH."],
         policies: [
-            { "icon": "fal fa-snowflake", "name": "Policy 1", "text": "Does this policy" },
-            { "icon": "fal fa-child", "name": "Policy 2", "text": "Does this policy" },
-            { "icon": "fal fa-money-bill-alt", "name": "Policy 3", "text": "Does this policy" }
+            { "icon": "fal fa-snowflake", "name": "Egg Freezing", "text": "Similar to several other major tech companies, Uber also offers its female employees benefits that pay for egg-freezing so that these employees can decide to have kids later in life." },
+            { "icon": "fal fa-child", "name": "Maternity Leave", "text": "Uber offers 17 weeks of paid maternity leave and 2 weeks of unpaid maternity leave." },
+            { "icon": "fal fa-money-bill-alt", "name": "Child care Discount", "text": "The company has an childcare discount policy for its employees and offers rates for eligible child care centers." }
         ],
-        infograph: 'https://photos-5.dropbox.com/t/2/AABsKUdAlwVb--ovASOF33IH2ww8CncwiTO5dZ0ce4yCPg/12/101592676/jpeg/32x32/1/_/1/2/uber-infograph.jpg/EJDosuELGAUgAigC/NuGVIDwSG_gKDEfFscEYqM0LUQrYhBsk6lbZpsufvxA?size=800x600&size_mode=3',
-        conclusion: "Lorem ipsum dolor sit amet consectetur adipisicing",
+        infograph: uber,
+        conclusion: "Overall, Uber has made efforts to improve its image how it treats its women employees following allegations of sexual harassment and what efforts it is making to bridge the gender gap. The company says they are launching new leadership programs for women beside other underrepresented groups. Two of its Employee Resource Groups are specifically intended for women. These include LadyEng, a community for women in engineering, and Women for Uber, a community for women, gender non-binary employees, and allies.",
 
     },
     {
@@ -136,54 +144,8 @@ export const companies = [
             { "icon": "fal fa-child", "name": "SitWithMe.org", "text": "To recognize the important role women play in creating future technology" },
             { "icon": "fal fa-money-bill-alt", "name": "WiRL Leadership Summit Sponsorship", "text": "Sponsor 10 women to attend this summit" }
         ],
-<<<<<<< HEAD
-        infograph:"https://photos-5.dropbox.com/t/2/AAAZFKw7JTcIpuwt1BCP7FvpFtUG0B4auyhwpze8F3cAhg/12/591871981/png/32x32/1/_/1/2/ScreenshotMicrosof.png/EKWXreIEGLECIAIoAg/7bqc3ERLbDPT6yGJ0aVRW-KTRkCeyYq1CXrPyRo4Z4s?preserve_transparency=1&size=2048x1536&size_mode=3"
-        infograph:"https://photos-3.dropbox.com/t/2/AAD42HkofANus6Wyh7P951kQxdjlPC5IA9Peb6wjXECIYA/12/591871981/png/32x32/1/_/1/2/ScreenshotMicro.png/EKWXreIEGLECIAIoAg/Yiug4fsCpwjrTS0RNXs25OtJrmr1unBhicLBTX1oYG4?preserve_transparency=1&size=2048x1536&size_mode=3"
-        infograph:"https://photos-4.dropbox.com/t/2/AACQcwB_8G2Ix_2EOp_TaHDlDTk3g3ogmm6ssySYkq53XA/12/591871981/png/32x32/1/_/1/2/ScreenshotMic.png/EKWXreIEGLECIAIoAg/adPQQN8TvM-dUq1uzfFXzzQwOkXcUBho0Q5qEdC07PU?preserve_transparency=1&size=2048x1536&size_mode=3"
+        infographs: [ms01, ms02, ms03],
         conclusion: "As depicted through these infographics, there is a need for Microsoft as one the world's biggest tech companies to re-evaluate the policies it has employed so far with the goal of achieving greater inroads at tackling the issue of gender bias in the company demographics. Especially in leadership, women in Microsoft should be given a better platform to succeed. The programs of DigiGirlz Day, SitWithMe and WiRL Leadership are good indicators of positive intent from Microsoft; the neccessary first steps in a bid to creating a more equal workspace for women at the company.",
-    },
-    {
-      name: "Deloitte",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/DeloitteToronto4.jpg/2560px-DeloitteToronto4.jpg",
-
-      description: "Deloitte is the largest professional services network organization in the world by revenue and number of professionals. Deloitte provides audit, tax, consulting, enterprise risk and financial advisory services with more than 263,900 professionals globally and is a pioneer in tackling gender bias and boasts the best statistics of women contributions across all levels of the firm.",
-      context: [
-        {
-          title: "Company Size",
-          text: "263,900 employees"
-        },
-        {
-          title: "Most Recent Revenue",
-          text: "38.8 billion USD"
-        },
-        {
-          title: "Female Employees",
-          text: "44%"
-        },
-        {
-          title: "Male Employees",
-          text: "56%"
-        },
-        {
-          title: "Overall Female Employee Increase",
-          text: "1.0%"
-        },
-      ],
-      backgroundImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/DeloitteToronto3.jpg/2560px-DeloitteToronto3.jpg',
-      trends: ["After researching the extent to which Deloitte’s culture is actually inclusive, the company numbers through the years across all diversity statistics stand out. Deloitte has found a successful way to create and maintain a conducive environment for women and minorities through the years and have the numbers to back it up. Deloitte has been a pioneer with its approach to move away from ERGs and take up inclusion councils which have produced the required results. And the consistency in the importance shown to tackling gender bias makes Deloitte one of the best places to work sans any bias."],
-      policies: [
-          { "icon": "fal fa-minus-circle", "name": "Dissolving Workplace Affinity Groups", "text": "This shift away from the traditional was driven by new research findings that highlighted that millennials, who make-up the majority (57%) of Deloitte’s employee base, don’t like being clustered or grouped by demographics." },
-          { "icon": "fal fa-plus-circle", "name": "Inclusion Councils", "text": "Aims to bring more voices into the conversation, cultivate and harness allies and drive change, that bring white men into the conversation." },
-          { "icon": "fal fa-female", "name": "Women in Leadership", "text": "Boasts a vision of increasing women in leadership to at least 30%." }
-      ],
-      infograph: "https://photos-5.dropbox.com/t/2/AACRMmVN-nR6Oak4YRcRX6XrM9b_TCXg1mDhxSLBKwo_hw/12/591871981/png/32x32/1/_/1/2/ScreenshotDel.png/EKWXreIEGLECIAIoAg/NsDROmoDDmsHQRdNEMuztbDMhqpZIuRO0Q4Bsh22-cw?preserve_transparency=1&size=2048x1536&size_mode=3"
-      conclusion: "In the end, as Deloitte rightly points out, these networks and ERGs divide people up into artificial subgroups and isolate them from the networks of power and influence that are such a key part of how leaders identify and promote people. Hence, Deloitte has adopted the task to educate and convince today’s dominant managerial group that inclusion is good for business and no company in recent memory has been as vocal as Deloitte about the need to turn the page, surprising some diversity advocates. Hence, Deloitte makes for one the most conducive work environments without the burden of bias and are leading the response for the outcall to address the gender bias while maintaining their standard of results.",
-=======
-        infographs: ["https://photos-6.dropbox.com/t/2/AAAAKdm-U_0yP6h3rnx1iTfiRN9ha7l58hUMmyUlZk_WPA/12/101592676/png/32x32/1/_/1/2/ScreenshotMicrosof.png/EJDosuELGAQgAigC/7bqc3ERLbDPT6yGJ0aVRW-KTRkCeyYq1CXrPyRo4Z4s?preserve_transparency=1&size=800x600&size_mode=3",
-        "https://photos-5.dropbox.com/t/2/AAC1b9xFMspCgCA9LRvg8Uf_CzAuCr7iGXwgakhNjYIuOg/12/101592676/png/32x32/1/_/1/2/ScreenshotMicro.png/EJDosuELGAQgAigC/Yiug4fsCpwjrTS0RNXs25OtJrmr1unBhicLBTX1oYG4?preserve_transparency=1&size=800x600&size_mode=3",
-
-        "https://photos-3.dropbox.com/t/2/AACfztfyxaXaaevZTHXjqkXUjKr4YAZaV8IPBQ4clGO9qQ/12/101592676/png/32x32/1/_/1/2/ScreenshotMic.png/EJDosuELGAQgAigC/adPQQN8TvM-dUq1uzfFXzzQwOkXcUBho0Q5qEdC07PU?preserve_transparency=1&size=800x600&size_mode=3"],
-        conclusion: "",
     },
     {
         name: "Deloitte",
@@ -219,8 +181,7 @@ export const companies = [
             { "icon": "fal fa-plus-circle", "name": "Inclusion Councils", "text": "Aims to bring more voices into the conversation, cultivate and harness allies and drive change, that bring white men into the conversation." },
             { "icon": "fal fa-female", "name": "Women in Leadership", "text": "Boasts a vision of increasing women in leadership to at least 30%." }
         ],
-        infograph: "https://photos-3.dropbox.com/t/2/AABnbLm3w2ZE3OozX2JOnqbgG-m8vClLfSc33eOH1Jb1jA/12/101592676/png/32x32/3/1526893200/0/2/ScreenshotDel.png/EJDosuELGAQgAigC/NsDROmoDDmsHQRdNEMuztbDMhqpZIuRO0Q4Bsh22-cw?dl=0&preserve_transparency=1&size=800x600&size_mode=3",
+        infograph: deloitte,
         conclusion: "In the end, as Deloitte rightly points out, these networks and ERGs divide people up into artificial subgroups and isolate them from the networks of power and influence that are such a key part of how leaders identify and promote people. Hence, Deloitte has adopted the task to educate and convince today’s dominant managerial group that inclusion is good for business. Hence, Deloitte makes for one the most conducive work environments without the burden of bias and are leading the response for the outcall to address the gender bias while maintaining their standard of results.",
->>>>>>> 77406f5cc1c83db3389ac474f88d9eecaa1d9cf6
     },
 ]
