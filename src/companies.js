@@ -73,14 +73,16 @@ export const companies = [
             }
         ],
         backgroundImage: 'https://upload.wikimedia.org/wikipedia/commons/c/cc/Protest_against_Uber_-_Budapest%2C_2016.01.18_%282%29.JPG',
-        trends: ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde.", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur cupiditateveritatis soluta atque corporis, nam architecto natus culpa porro quisquam animi. Fugit, praesentium minima aut deleniti cupiditate et unde"],
+        trends: ["Following the expulsion of its previous CEO, the company says they are making significant efforts to make include more women in leadership roles, which they define as any role as director or above. The current CEO, Dara Khosrowshahi, says they celebrate differences at Uber and are committed to building a culture where everyone feels welcomed, supported and challenged. The company has appointed a new Chief Diversity and Inclusion Officer to help create engaging development programs for women.",
+
+        "They have also partnered with several organizations that aim to bring in more women talent to the tech industry, such as Girls Who Code, BUILD, Technovation, Code.org, and SMASH."],
         policies: [
             { "icon": "fal fa-snowflake", "name": "Policy 1", "text": "Does this policy" },
             { "icon": "fal fa-child", "name": "Policy 2", "text": "Does this policy" },
             { "icon": "fal fa-money-bill-alt", "name": "Policy 3", "text": "Does this policy" }
         ],
         infograph: 'https://photos-5.dropbox.com/t/2/AABsKUdAlwVb--ovASOF33IH2ww8CncwiTO5dZ0ce4yCPg/12/101592676/jpeg/32x32/1/_/1/2/uber-infograph.jpg/EJDosuELGAUgAigC/NuGVIDwSG_gKDEfFscEYqM0LUQrYhBsk6lbZpsufvxA?size=800x600&size_mode=3',
-        conclusion: "Lorem ipsum dolor sit amet consectetur adipisicing",
+        conclusion: "Overall, Uber has made efforts to improve its image how it treats its women employees following allegations of sexual harassment and what efforts it is making to bridge the gender gap. The company says they are launching new leadership programs for women beside other underrepresented groups. Two of its Employee Resource Groups are specifically intended for women. These include LadyEng, a community for women in engineering, and Women for Uber, a community for women, gender non-binary employees, and allies.",
 
     },
     {
