@@ -90,13 +90,13 @@ class Facebook extends Component {
             <p>
               At Facebook, just like most tech companies, diversity is low.
               There is a constant battle to recruit more diverse employees,
-              especially women in such a male dominated field. Facebook has done
+              especially women in a grossly male dominated field. Facebook has taken
               several steps to increase their diversity efforts, and the results
-              are slowly paying off with seeing a 2% increase in female tech
-              workers at their company. They've opened what they call "Facebook
+              are slowly paying off with a 2% increase in female tech
+              workers at their company. They've opened "Facebook
               University" where they bring interns in and train them to become
               well established developers in order to recruit them for full
-              time. Thye also attend different conferences such as Grace Hopper
+              time. Thye also attend different conferences such as Grace Hopper Conference
               in order to recruit more women into their company.
             </p>
             <br />
@@ -105,7 +105,7 @@ class Facebook extends Component {
               Facebook also has many events and programs in order to recruit
               more women for their tech related roles and to encourage them to
               apply to Facebook. One of these events is called Women's
-              Leadership Day which they call "A time to share, connect, and
+              Leadership Day which is an opportunity along the idea of "A time to share, connect, and
               inspire each other on a journey to 'lead with purpose'." They also
               have a leadership network like most companies for college students
               to help support women in Engineering and mentor them in getting a
@@ -172,14 +172,14 @@ class Facebook extends Component {
           <Container>
             <h2>Conclusion</h2>
             <p>
-              Overall Facebook has been puttin in an effort to increase the
-              amount of women they employee and increase the balance between
-              male and female engineers and leaders. Thye have made efforts by
+              Overall Facebook has been putting in an effort to increase the
+              amount of women they employ and increase the balance between
+              male and female engineers and in leadership. They have made efforts by
               reaching out to students, creating neetworking programs, and
               creating benefits to help encourage women to join their company.
-              Overall from the graph you can see an increase in the amount of
+              Overall, from the graph you can see an increase in the amount of
               women at the company over the years which means that Facebook as a
-              company is slowly succeeding in diversifying their company
+              company is slowly succeeding in diversifying their company.
             </p>
           </Container>
         </section>

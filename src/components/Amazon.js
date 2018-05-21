@@ -106,8 +106,7 @@ class Amazon extends Component {
               opportunities available to them. They also send people down to the
               Grace Hopper event to celebrate women in computing every year.
               Aamzon also has a group called Women At Amazon which is primarily
-              focused on peer mentoring to help further ones careers. Amazon as
-              whole, is trying to make stride to make their company a more
+              focused on peer mentoring to help further ones careers. Amazon is trying to make stride to make their company a more
               inclusive and diverse company.
             </p>
           </Container>
@@ -181,9 +180,9 @@ class Amazon extends Component {
           <Container>
             <h2>Conclusion</h2>
             <p>
-              Overall Amazon's numbers for women in their company are pretty
-              high in general, however they do lack women in their higher end
-              senior roles. Overall for senior level management, women make up
+              Overall, Amazon's numbers for women in their company are
+              high in general, however they do lack women in their high end
+              senior roles. For senior level management, women make up
               25% and for their executive directors, women make up an even
               smaller percentage. I think Amazon does a fair job diversifying
               their talent, however they need to focus on giving an equal
