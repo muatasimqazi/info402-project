@@ -1,3 +1,4 @@
+const apple = require('./assets/images/apple-infograph.png');
 const uber = require('./assets/images/uber-infograph.jpg');
 const ms01 = require('./assets/images/microsoft01.png');
 const ms02 = require('./assets/images/microsoft02.png');
@@ -42,7 +43,7 @@ export const companies = [
             { "icon": "fal fa-child", "name": "Policy 2", "text": "Does this policy" },
             { "icon": "fal fa-money-bill-alt", "name": "Policy 3", "text": "Does this policy" }
         ],
-        infograph: "https://cdn.slidemodel.com/wp-content/uploads/7289-01-gradient-column-chart-infographics-16x9-1.jpg",
+        infograph: apple,
         conclusion: "Lorem ipsum dolor sit amet consectetur adipisicing",
     },
 
