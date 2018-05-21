@@ -52,7 +52,7 @@ class MainView extends Component {
                     Women represent less than 25% of employees in the tech field
                     due to several factors ranging from implicit biases, lack of
                     mentors, and family responsibilities. These issues have led
-                    to what we call the gender divide.
+                    to the gender divide.
                   </p>
                 </Grow>
               </Col>
@@ -71,19 +71,18 @@ class MainView extends Component {
                 <Row>
                   <Col sm={8} offset={{ sm: 2 }}>
                     <p>
-                      Since the late 1900's there has been an ongoing issue with
+                      Since the late 1990s there has been an ongoing issue with
                       diversity in the workplace, one specific issue being the
-                      dominance of males in the tech industry. Roughly right
+                      dominance of males in the tech industry. Right
                       now, the tech field is made up of 75% men, and in more
                       senior positions there are even more men filling those
-                      roles. To understand this context a little bit better We
+                      roles. To understand this context a little bit better we
                       have to look at why there is such a gender divide in the
                       work place.
                       <br />
                       <br />
                       Often times people mention the reason for the gender
-                      divide is the culture of the company, the culture of the
-                      field, and naturally how unappealing it is to join a field
+                      divide is the culture of the field, and naturally how unappealing it is to join a field
                       dominated by males. However, this isn't necessarily true.
                       There are several reasons for this issue, stemming from
                       schools not providing adequate resources for women to go
@@ -110,8 +109,8 @@ class MainView extends Component {
                       <h2>Biases</h2>
                       <p>
                         Biases have developed towards women in the tech field,
-                        resulting in biased reviews, interviews, and promotions.
-                        Causing a lack of interest in the field.
+                        resulting in biased reviews, interviews, and promotions,
+                        causing a lack of interest in the field.
                       </p>
                     </div>
                   </Col>
@@ -120,8 +119,7 @@ class MainView extends Component {
                       <i className="fal fa-money-bill-alt" />
                       <h2>Unfair Pay</h2>
                       <p>
-                        There is a known wage gap to occur between males and
-                        females in tech. Such a gap is unfair to pay differently
+                        There is a known wage gap in the technology industry, where women are paid less than men for the same job. Such a gap is unfair to pay differently
                         based on gender.
                       </p>
                     </div>
@@ -199,7 +197,7 @@ class MainView extends Component {
                     <div className="carousel-item active">
                       <h2>Companies Adjusting</h2>
                       <p>
-                        This issue has grown the attention of all major
+                        This issue has gained the attention of all major
                         companies resulting in new policies such as more
                         maternity leave and better benefits for women.
                         <br /><br />
@@ -208,10 +206,7 @@ class MainView extends Component {
                     <div className="carousel-item">
                       <h2>Support Groups &amp; Networks</h2>
                       <p>
-                        The issue of such little women in engineering has
-                        created several women in engineering company groups and
-                        networks, created a peer to peer mentoring and
-                        networking system for a more inclusive environment.
+                        The issue of such few women in engineering has created several women in engineering company groups and networks, as well as a peer to peer mentoring and networking system for a more inclusive environment.
                       </p>
                     </div>
                     <div className="carousel-item">
