@@ -37,14 +37,14 @@ export const companies = [
             }
         ],
         backgroundImage: 'https://upload.wikimedia.org/wikipedia/commons/8/84/Apple_Campus_One_Infinite_Loop_Sign.jpg',
-        trends: ["The company has a good percent of women in leadership roles. The company says 29% of leaders at Apple are women, a 1 percentage point increase from July 2016 to July 2017. It also says 39% of the company’s leaders under 30 are women with a 3 percentage points increase. From July 2016 to July 2017, half of the company’s new hires in the U.S. included women in addition to people from historically underrepresented groups in tech — women, Black, Hispanic, Native American, and Native Hawaiian & Other Pacific Islander."],
+        trends: ["The company has a decent percentage of women in leadership roles. The company says 29% of leaders at Apple are women, a 1 percentage point increase from July 2016 to July 2017. It also says 39% of the company’s leaders under 30 are women with a 3 percentage points increase. From July 2016 to July 2017, half of the company’s new hires in the U.S. included women in addition to people from historically underrepresented groups in tech — women, Black, Hispanic, Native American, and Native Hawaiian & Other Pacific Islander."],
         policies: [
-            { "icon": "fal fa-snowflake", "name": "Policy 1", "text": "Does this policy" },
-            { "icon": "fal fa-child", "name": "Policy 2", "text": "Does this policy" },
-            { "icon": "fal fa-money-bill-alt", "name": "Policy 3", "text": "Does this policy" }
+            { "icon": "fal fa-snowflake", "name": "Egg Freezing", "text": "Like Facebook and Google, Apple also provides egg freezing option to its women employees who may not want kids in their 20s, but don't want all the risks that come with delaying childbirth into their 30s and sometimes 40s." },
+            { "icon": "fal fa-child", "name": "Extended Maternity Leave", "text": "The company offers 18 weeks of paid maternity leave, 9 weeks of unpaid maternity leave, 6 weeks of paid paternity leave and 6 weeks of unpaid paternity leave." },
+            { "icon": "fal fa-money-bill-alt", "name": "Dependent Day Care Spending Account", "text": "The company provides tax savings to employees who need dependent day care services. Employees can set aside up to $5000 in before-tax dollars each year for eligible dependent day care expenses." }
         ],
         infograph: apple,
-        conclusion: "Lorem ipsum dolor sit amet consectetur adipisicing",
+        conclusion: "Apple has achieved pay equity in every country they operate in. The company joined the NCWIT community in 2007 as a member of the Workforce Alliance and became NCWIT’s first-ever Lifetime Partner in 2015. Overall, the company seems to be making efforts to hire more women and also emphasizes on placing more women in leadership roles. The company boasts its number of young women taking up leadership roles within the company.",
     },
 
     {
@@ -83,7 +83,7 @@ export const companies = [
 
         "They have also partnered with several organizations that aim to bring in more women talent to the tech industry, such as Girls Who Code, BUILD, Technovation, Code.org, and SMASH."],
         policies: [
-            { "icon": "fal fa-snowflake", "name": "Policy 1", "text": "Does this policy" },
+            { "icon": "fal fa-snowflake", "name": "Egg Freezing", "text": "Does this policy" },
             { "icon": "fal fa-child", "name": "Policy 2", "text": "Does this policy" },
             { "icon": "fal fa-money-bill-alt", "name": "Policy 3", "text": "Does this policy" }
         ],
