@@ -44,7 +44,7 @@ export const companies = [
             { "icon": "fal fa-money-bill-alt", "name": "Dependent Day Care Spending Account", "text": "The company provides tax savings to employees who need dependent day care services. Employees can set aside up to $5000 in before-tax dollars each year for eligible dependent day care expenses." }
         ],
         infograph: apple,
-        conclusion: "Apple has achieved pay equity in every country they operate in. The company joined the NCWIT community in 2007 as a member of the Workforce Alliance and became NCWIT’s first-ever Lifetime Partner in 2015. Overall, the company seems to be making efforts to hire more women and also emphasizes on placing more women in leadership roles. The company boasts its number of young women taking up leadership roles within the company.",
+        conclusion: "Apple has achieved pay equity in every country they operate in. The company joined the National Center for Women & Information Technology (NCWIT) community in 2007 as a member of the Workforce Alliance and became NCWIT’s first-ever Lifetime Partner in 2015. Overall, the company seems to be making efforts to hire more women and also emphasizes on placing more women in leadership roles. The company boasts about its number of young women taking up leadership roles within the company.",
     },
 
     {
