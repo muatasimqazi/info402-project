@@ -25,7 +25,7 @@ export const companies = [
             },
             {
                 title: "Female Employees",
-                text: "38%"
+                text: "32%"
             },
             {
                 title: "Male Employees",
