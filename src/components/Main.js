@@ -105,7 +105,7 @@ class MainView extends Component {
                 <Row>
                   <Col sm={4}>
                     <div className="wii-item">
-                      <i className="fal fa-balance-scale" />
+                      <i className="fas fa-balance-scale" />
                       <h2>Biases</h2>
                       <p>
                         Biases have developed towards women in the tech field,
@@ -116,7 +116,7 @@ class MainView extends Component {
                   </Col>
                   <Col sm={4}>
                     <div className="wii-item">
-                      <i className="fal fa-money-bill-alt" />
+                      <i className="fas fa-money-bill-alt" />
                       <h2>Unfair Pay</h2>
                       <p>
                         There is a known wage gap in the technology industry, where women are paid less than men for the same job. Such a gap is unfair to pay differently
@@ -126,7 +126,7 @@ class MainView extends Component {
                   </Col>
                   <Col sm={4}>
                     <div className="wii-item">
-                      <i className="fal fa-burn" />
+                      <i className="fas fa-burn" />
                       <h2>High Turnover</h2>
                       <p>
                         Companies that show little to know flexibility in their
@@ -143,7 +143,7 @@ class MainView extends Component {
                 <Row>
                   <Col sm={4} offset={{ sm: 2 }}>
                     <div className="wii-item">
-                      <i className="fal fa-chart-line" />
+                      <i className="fas fa-chart-line" />
                       <h2>Promotion Rates</h2>
                       <p>
                         Currently men are promoted at 30% higher rates than
@@ -154,7 +154,7 @@ class MainView extends Component {
                   </Col>
                   <Col sm={4}>
                     <div className="wii-item">
-                      <i className="fal fa-times-octagon" />
+                      <i className="fas fa-crosshairs" />
                       <h2>Hostile Environments</h2>
                       <p>
                         According to a study, 50% of women in STEM will leave

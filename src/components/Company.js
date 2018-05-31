@@ -121,14 +121,14 @@ class CompanyView extends Component {
                                     company.infographs 
                                     ?
                                     <div>
-                                    <img src={company.infographs[0]} alt="" />
+                                    <img className="img-fluid" src={company.infographs[0]} alt="" />
                                     <hr/>
-                                    <img src={company.infographs[1]} alt="" />
+                                    <img className="img-fluid" src={company.infographs[1]} alt="" />
                                     <hr/>
-                                    <img src={company.infographs[2]} alt="" />
+                                    <img className="img-fluid" src={company.infographs[2]} alt="" />
                                     </div>
                                     :
-                                    <img src={company.infograph} alt="" />
+                                    <img className="img-fluid" src={company.infograph} alt="" />
                                 }
                                
                             </Container>
