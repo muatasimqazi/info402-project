@@ -1,5 +1,6 @@
 const apple = require('./assets/images/apple-infograph.png');
 const uber = require('./assets/images/uber-infograph.jpg');
+const fb_hq = require('./assets/images/facebook-hq.jpg');
 const ms01 = require('./assets/images/microsoft01.png');
 const ms02 = require('./assets/images/microsoft02.png');
 const ms03 = require('./assets/images/microsoft03.png');
@@ -39,9 +40,9 @@ export const companies = [
         backgroundImage: 'https://upload.wikimedia.org/wikipedia/commons/8/84/Apple_Campus_One_Infinite_Loop_Sign.jpg',
         trends: ["The company has a decent percentage of women in leadership roles. The company says 29% of leaders at Apple are women, a 1 percentage point increase from July 2016 to July 2017. It also says 39% of the company’s leaders under 30 are women with a 3 percentage points increase. From July 2016 to July 2017, half of the company’s new hires in the U.S. included women in addition to people from historically underrepresented groups in tech — women, Black, Hispanic, Native American, and Native Hawaiian & Other Pacific Islander."],
         policies: [
-            { "icon": "fal fa-snowflake", "name": "Egg Freezing", "text": "Like Facebook and Google, Apple also provides egg freezing option to its women employees who may not want kids in their 20s, but don't want all the risks that come with delaying childbirth into their 30s and sometimes 40s." },
-            { "icon": "fal fa-child", "name": "Extended Maternity Leave", "text": "The company offers 18 weeks of paid maternity leave, 9 weeks of unpaid maternity leave, 6 weeks of paid paternity leave and 6 weeks of unpaid paternity leave." },
-            { "icon": "fal fa-money-bill-alt", "name": "Dependent Day Care Spending Account", "text": "The company provides tax savings to employees who need dependent day care services. Employees can set aside up to $5000 in before-tax dollars each year for eligible dependent day care expenses." }
+            { "icon": "fas fa-snowflake", "name": "Egg Freezing", "text": "Like Facebook and Google, Apple also provides egg freezing option to its women employees who may not want kids in their 20s, but don't want all the risks that come with delaying childbirth into their 30s and sometimes 40s." },
+            { "icon": "fas fa-child", "name": "Extended Maternity Leave", "text": "The company offers 18 weeks of paid maternity leave, 9 weeks of unpaid maternity leave, 6 weeks of paid paternity leave and 6 weeks of unpaid paternity leave." },
+            { "icon": "fas fa-money-bill-alt", "name": "Dependent Day Care Spending Account", "text": "The company provides tax savings to employees who need dependent day care services. Employees can set aside up to $5000 in before-tax dollars each year for eligible dependent day care expenses." }
         ],
         infograph: apple,
         conclusion: "Apple has achieved pay equity in every country they operate in. The company joined the National Center for Women & Information Technology (NCWIT) community in 2007 as a member of the Workforce Alliance and became NCWIT’s first-ever Lifetime Partner in 2015. Overall, the company seems to be making efforts to hire more women and also emphasizes on placing more women in leadership roles. The company boasts about its number of young women taking up leadership roles within the company.",
@@ -83,9 +84,9 @@ export const companies = [
 
         "They have also partnered with several organizations that aim to bring in more women talent to the tech industry, such as Girls Who Code, BUILD, Technovation, Code.org, and SMASH."],
         policies: [
-            { "icon": "fal fa-snowflake", "name": "Egg Freezing", "text": "Similar to several other major tech companies, Uber also offers its female employees benefits that pay for egg-freezing so that these employees can decide to have kids later in life." },
-            { "icon": "fal fa-child", "name": "Maternity Leave", "text": "Uber offers 17 weeks of paid maternity leave and 2 weeks of unpaid maternity leave." },
-            { "icon": "fal fa-money-bill-alt", "name": "Child care Discount", "text": "The company has an childcare discount policy for its employees and offers rates for eligible child care centers." }
+            { "icon": "fas fa-snowflake", "name": "Egg Freezing", "text": "Similar to several other major tech companies, Uber also offers its female employees benefits that pay for egg-freezing so that these employees can decide to have kids later in life." },
+            { "icon": "fas fa-child", "name": "Maternity Leave", "text": "Uber offers 17 weeks of paid maternity leave and 2 weeks of unpaid maternity leave." },
+            { "icon": "fas fa-money-bill-alt", "name": "Child care Discount", "text": "The company has an childcare discount policy for its employees and offers rates for eligible child care centers." }
         ],
         infograph: uber,
         conclusion: "Overall, Uber has made efforts to improve its image how it treats its women employees following allegations of sexual harassment and what efforts it is making to bridge the gender gap. The company says they are launching new leadership programs for women beside other underrepresented groups. Two of its Employee Resource Groups are specifically intended for women. These include LadyEng, a community for women in engineering, and Women for Uber, a community for women, gender non-binary employees, and allies.",
@@ -93,7 +94,7 @@ export const companies = [
     },
     {
         name: "Facebook",
-        image: "http://blogger.techmasair.com/wp-content/uploads/2017/04/151027-facebook-headquarters-2-100624904-orig.jpg",
+        image: fb_hq,
 
         description: `The social media giant based out of Palo Alto, California has been making efforts to show positive diversity growth`,
         link: "/company/facebook",
@@ -140,9 +141,9 @@ export const companies = [
         backgroundImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Microsoft_sign_closeup.jpg/1920px-Microsoft_sign_closeup.jpg',
         trends: ["At Microsoft, despite a positive trend, there is still quite a need to bridge the bias across gender and other minorities across their employees; Of this employee pool, women make up roughly only 25.9% of the total and constitute about 19.0% in tech related fields. In leadership at Microsoft, women only make up about 19.1% leaders and this depicts the existence of the bias when it comes to leadership roles, promotions, and job reviews. Consequently, the company has created a few employee resource groups as networks for women in technology to develop and support female employees at Microsoft through opportunities such as global conferences, networking events, and mentoring called Women at Microsoft. Women at Microsoft also partners with MentorNet, a company that seeks to connect STEM student to mentors in their community. In tandem with renewed hiring policies, Microsoft as a whole, is extensively trying to make inroads to strive against gender biases to make their company more inclusive."],
         policies: [
-            { "icon": "fal fa-snowflake", "name": "DigiGirlz Day", "text": "Designed to introduce girls to the career opportunities available in technology fields" },
-            { "icon": "fal fa-child", "name": "SitWithMe.org", "text": "To recognize the important role women play in creating future technology" },
-            { "icon": "fal fa-money-bill-alt", "name": "WiRL Leadership Summit Sponsorship", "text": "Sponsor 10 women to attend this summit" }
+            { "icon": "fas fa-snowflake", "name": "DigiGirlz Day", "text": "Designed to introduce girls to the career opportunities available in technology fields" },
+            { "icon": "fas fa-child", "name": "SitWithMe.org", "text": "To recognize the important role women play in creating future technology" },
+            { "icon": "fas fa-money-bill-alt", "name": "WiRL Leadership Summit Sponsorship", "text": "Sponsor 10 women to attend this summit" }
         ],
         infographs: [ms01, ms02, ms03],
         conclusion: "As depicted through these infographics, there is a need for Microsoft as one the world's biggest tech companies to re-evaluate the policies it has employed so far with the goal of achieving greater inroads at tackling the issue of gender bias in the company demographics. Especially in leadership, women in Microsoft should be given a better platform to succeed. The programs of DigiGirlz Day, SitWithMe and WiRL Leadership are good indicators of positive intent from Microsoft; the neccessary first steps in a bid to creating a more equal workspace for women at the company.",
@@ -177,9 +178,9 @@ export const companies = [
         backgroundImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/DeloitteToronto3.jpg/2560px-DeloitteToronto3.jpg',
         trends: ["After researching the extent to which Deloitte’s culture is actually inclusive, the company numbers through the years across all diversity statistics stand out. Deloitte has found a successful way to create and maintain a conducive environment for women and minorities through the years and have the numbers to back it up. Deloitte has been a pioneer with its approach to move away from ERGs and take up inclusion councils which have produced the required results. And the consistency in the importance shown to tackling gender bias makes Deloitte one of the best places to work sans any bias."],
         policies: [
-            { "icon": "fal fa-minus-circle", "name": "Dissolving Workplace Affinity Groups", "text": "This shift away from the traditional was driven by new research findings that highlighted that millennials, who make-up the majority (57%) of Deloitte’s employee base, don’t like being clustered or grouped by demographics." },
-            { "icon": "fal fa-plus-circle", "name": "Inclusion Councils", "text": "Aims to bring more voices into the conversation, cultivate and harness allies and drive change, that bring white men into the conversation." },
-            { "icon": "fal fa-female", "name": "Women in Leadership", "text": "Boasts a vision of increasing women in leadership to at least 30%." }
+            { "icon": "fas fa-minus-circle", "name": "Dissolving Workplace Affinity Groups", "text": "This shift away from the traditional was driven by new research findings that highlighted that millennials, who make-up the majority (57%) of Deloitte’s employee base, don’t like being clustered or grouped by demographics." },
+            { "icon": "fas fa-plus-circle", "name": "Inclusion Councils", "text": "Aims to bring more voices into the conversation, cultivate and harness allies and drive change, that bring white men into the conversation." },
+            { "icon": "fas fa-female", "name": "Women in Leadership", "text": "Boasts a vision of increasing women in leadership to at least 30%." }
         ],
         infograph: deloitte,
         conclusion: "In the end, as Deloitte rightly points out, these networks and ERGs divide people up into artificial subgroups and isolate them from the networks of power and influence that are such a key part of how leaders identify and promote people. Hence, Deloitte has adopted the task to educate and convince today’s dominant managerial group that inclusion is good for business. Hence, Deloitte makes for one the most conducive work environments without the burden of bias and are leading the response for the outcall to address the gender bias while maintaining their standard of results.",

@@ -60,7 +60,7 @@ class Amazon extends Component {
             <Grid container spacing={16}>
               {context.map(x => {
                 return (
-                  <Grid item sm={4}>
+                  <Grid item xs={12} sm={6} md={4}>
                     <Paper elevation={3} style={{ marginBottom: "3pc" }}>
                       <CardContent>
                         <Typography
@@ -118,9 +118,9 @@ class Amazon extends Component {
           <br />
           <Container>
             <Grid container spacing={16}>
-              <Grid sm={4} item>
+              <Grid xs={12} sm={6} md={4} item>
                 <Paper elevation={2} className="cd-pd">
-                  <i className="fal fa-snowflake" />
+                  <i className="fas fa-snowflake" />
                   <br />
                   <h3>Fairness</h3>
                   <p>
@@ -131,9 +131,9 @@ class Amazon extends Component {
                   </p>
                 </Paper>
               </Grid>
-              <Grid sm={4} item>
+              <Grid xs={12} sm={6} md={4} item>
                 <Paper elevation={2} className="cd-pd">
-                  <i className="fal fa-child" />
+                  <i className="fas fa-child" />
                   <br />
                   <h3>Maternity Leave</h3>
                   <p>
@@ -143,9 +143,9 @@ class Amazon extends Component {
                   </p>
                 </Paper>
               </Grid>
-              <Grid sm={4} item>
+              <Grid xs={12} sm={6} md={4} item>
                 <Paper elevation={2} className="cd-pd">
-                  <i className="fal fa-money-bill-alt" />
+                  <i className="fas fa-money-bill-alt" />
                   <br />
                   <h3>Adoption Fees</h3>
                   <p>
@@ -164,12 +164,14 @@ class Amazon extends Component {
           <h2>Diversity Trends</h2>
           <Container>
             <img
+              className="img-fluid"
               src="http://gianlucavaccarini.com/images/amazon-graph2.png"
               style={{ width: "70%" }}
             />
             <br />
             <br />
             <img
+              className="img-fluid"
               src="http://gianlucavaccarini.com/images/amazon-graph.png"
               style={{ width: "70%" }}
             />

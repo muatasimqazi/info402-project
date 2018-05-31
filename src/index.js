@@ -5,6 +5,7 @@ import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
 import firebase from 'firebase/app';
 
+
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyB6v8XfyE1wY5pGLCSjKoRTrllQbdDQi6E",
